@@ -189,11 +189,17 @@ a{
     color: rgba(255, 255, 255, 0.21);
     font-family: "TT Firs Neue" ;
     font-size: 16px;
+    display: flex;
+    align-items: center;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0%;
+    
     text-align: center; 
     margin-top: auto;
+}
+.main-desc svg {
+    margin-left: 5px;
 }
 .link{
     color: rgba(255, 255, 255, 0.65);
