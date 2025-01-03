@@ -56,7 +56,7 @@ a{
     padding: 15px 20px;
     cursor: pointer;
     position: relative;
-
+    touch-action: manipulation;
     transition: all 0.3s ease;
     color: rgb(255, 255, 255);
     font-family: "TT Firs Neue";
