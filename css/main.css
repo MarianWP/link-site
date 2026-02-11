@@ -31,15 +31,14 @@ a{
 }
 
 .container{
-    width: 390px;
-    padding: 0 15px;
+    max-width: 24.375rem;
+    padding: 0 0.625rem;
     margin: 0 auto;
 }
 .img{
-
     position: relative;
-    margin: 50px auto 0;
-    width: 80%;
+    margin: 2.8125rem auto 0;
+    width: 36%;
 }
 
 .main-list{
@@ -49,9 +48,11 @@ a{
 }
 .main-tabs {
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 0.9375rem;
     justify-content: space-between;
     width: 100%;
+    margin-top: auto;
+    margin-bottom: 0.75rem;
 }
 
 .main-tab {
@@ -93,11 +94,13 @@ a{
     display: flex;
     flex-direction: column;
     width: 100%;
-
+    max-height: 65dvh;
+    overflow-y: scroll;
 }
 
 .tab-content {
     display: none;
+    padding: 0.0625rem;
 }
 
 .tab-content.active {
@@ -114,13 +117,13 @@ a{
 .main-title{
     color: rgb(255, 255, 255);
     font-family: "TT Firs Neue" ;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 37px;   
-    margin-top: 16px;
+    margin-bottom: 1rem;   
+    margin-top: 0.5rem;
     width: 80%;
 }
 .main-element{
@@ -291,7 +294,6 @@ a{
     border-radius: 18px;
     background: #040404;
     position: relative;
-    margin-bottom: 14px;
     background: linear-gradient(208.95deg, rgb(10, 10, 10) 35.582%,rgb(22, 22, 22) 97.414%);
 }
 .merch-wrapper::before{
